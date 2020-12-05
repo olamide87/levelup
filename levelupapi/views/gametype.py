@@ -1,10 +1,10 @@
-from django.db import models
 """View module for handling requests about game types"""
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from levelupapi.models import GameType
+
 
 class GameTypes(ViewSet):
     """Level up game types"""
